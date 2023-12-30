@@ -3,5 +3,5 @@
 テキストファイル内の特定の文字を別の文字に置き換えてくれます。
 
 ## ダウンロード
-![Windows用 実行ファイル](https://github.com/hamutan86/okikae-kun/releases/tag/ダウンロード)
-![Pythonファイル](https://github.com/hamutan86/okikae-kun/releases/tag/ダウンロード2)
+[Windows用 実行ファイル](https://github.com/hamutan86/okikae-kun/releases/tag/ダウンロード)
+[Pythonファイル](https://github.com/hamutan86/okikae-kun/releases/tag/ダウンロード2)

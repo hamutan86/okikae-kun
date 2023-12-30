@@ -4,4 +4,5 @@
 
 ## ダウンロード  
 [Windows用 実行ファイル](https://github.com/hamutan86/okikae-kun/releases/tag/ダウンロード)
+<br>
 [Pythonファイル](https://github.com/hamutan86/okikae-kun/releases/tag/ダウンロード2)

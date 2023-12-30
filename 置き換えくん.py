@@ -10,7 +10,7 @@ tki.title(u"置き換えくん")
 tki.resizable(False, False)
 
 def openfile(event):
- file_name = filedialog.askopenfilename(filetypes=[("テキストファイル", ".txt")])
+ file_name = filedialog.askopenfilename()
  tktbox1.insert(tkinter.END, file_name)
 
 def replace(event):
@@ -28,10 +28,10 @@ def replace(event):
   except Exception as e:
     messagebox.showerror("エラー", f"エラーが発生しました\n{e}")
 
-lbl = tkinter.Label(tki, text="テキストファイル内の特定の文字を別の文字に置き換えてくれます。")
+lbl = tkinter.Label(tki, text="ファイル内の特定の文字列を別の文字列に置き換えてくれます。")
 lbl.place(x=13, y=13)
 
-lbl = tkinter.Label(tki, text="対象のテキストファイル")
+lbl = tkinter.Label(tki, text="対象のファイル")
 lbl.place(x=13, y=50)
 tktbox1 = tkinter.Entry(tki, text="", width=40)
 tktbox1.place(x=13, y=75)
